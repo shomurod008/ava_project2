@@ -1,0 +1,803 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #0057ff;
+  --blue-light: #4783fb;
+  --blue-dark: #003bb0;
+  --orange: #ffa332;
+  --orange-light: #feb255;
+  --orange-dark: #f38600;
+}
+
+html {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+/* p {
+  font: 400 normal 14px/1.86 "Oswald";
+  text-transform: uppercase;
+} */
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.logo-box {
+  width: 93px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 20px;
+  margin-left: 60px;
+  list-style-type: none;
+}
+
+.nav-list-item {
+  padding: 0 10px;
+  font: 14px/26px "Oswald";
+  text-transform: uppercase;
+}
+
+.nav-list-item a:hover {
+  color: var(--blue);
+}
+
+.nav-list-item a:active {
+  color: var(--blue-light);
+}
+
+.button-box {
+  margin-left: auto;
+}
+
+.btn {
+  height: 52px;
+  padding: 14px 40px;
+  border: 0;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.btn-blue:hover {
+  background-color: var(--blue-light);
+}
+
+.btn-blue:active {
+  background-color: var(--blue-dark);
+}
+
+.btn-orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.btn-orange:hover {
+  background-color: var(--orange-light);
+}
+
+.btn-orange:active {
+  background-color: var(--orange-dark);
+}
+
+.header-main {
+  height: 740px;
+  padding-top: 10px;
+  background-image: url(../images/header-main-image.png);
+  background-position: 100% 70%;
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+
+.header-main-title {
+  width: 500px;
+  margin: 160px 0 0;
+  font-size: 56px;
+  line-height: 66px;
+  text-transform: uppercase;
+}
+
+.feedback-card {
+  width: 500px;
+  margin-top: 40px;
+}
+
+.author-comment {
+  margin: 0;
+  font: 400 16px/1.625 "Roboto";
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0 0;
+}
+
+.author-dp {
+  width: 80px;
+  height: 80px;
+}
+
+.author-name {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.author-rating {
+  display: flex;
+  list-style-type: none;
+  margin: 10px 0 0;
+}
+
+.author-star-item {
+  width: 18px;
+  height: 18px;
+}
+
+.cta-btn-box {
+  margin-top: 40px;
+}
+
+.text {
+  width: 38%;
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;
+  margin-left: 40%;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.event {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  color: #0057ff;
+}
+
+.text2 {
+  width: 54%;
+  margin-bottom: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  margin-left: 25%;
+  color: #000000;
+}
+.body2 {
+  align-items: center;
+}
+
+.author2 {
+  height: 400px;
+  align-items: center;
+}
+
+.body2-finish {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.brand {
+  position: absolute;
+  width: 1200px;
+  margin: 150px 0 0 0;
+}
+
+.left {
+  position: absolute;
+  font-family: "Oswald";
+  font-style: normal;
+}
+
+.left-body3 {
+  width: 35%;
+  font-size: 35px;
+  font-weight: 400;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.left-text {
+  font-family: "Roboto";
+}
+
+.small-text {
+  width: 40%;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.two-text {
+  margin: 50px 0 0;
+  display: flex;
+}
+
+.second-text {
+  display: flex;
+}
+
+.third-text {
+  display: flex;
+}
+
+.girl {
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+
+.girl-comment {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.paper-comment {
+  margin-left: 9%;
+  font-size: 25px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.girl-comment2 {
+  width: 15%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.right {
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+  position: absolute;
+  margin: 0 0 0 600px;
+  width: 500px;
+}
+
+.right-image {
+  height: 200px;
+  background: url("./IMAGEpeapl\(1\).png") 0 0 / 500px no-repeat;
+}
+
+.world {
+  font-size: 29px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.world-text {
+  margin: 0 10px 0 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+.enter-email {
+  margin: 20px 30px;
+  font-family: "Roboto";
+}
+
+.name {
+  height: 50px;
+  width: 200px;
+}
+
+.email {
+  margin: 0 0 20px 12px;
+  height: 50px;
+  width: 200px;
+}
+
+.subject {
+  width: 435px;
+  height: 50px;
+}
+
+.Enter-subject {
+  width: 435px;
+  height: 125px;
+  margin-top: 20px;
+}
+
+.btn2 {
+  margin: 25px 0 0;
+}
+
+.paper {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin-left: 25%;
+}
+
+.paper-comment2 {
+  width: 15%;
+  margin-left: 14%;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 24px;
+}
+
+.section-title {
+  margin: 0;
+  font: 400 normal 40px/50px "Oswald";
+  text-transform: uppercase;
+}
+
+.section-text {
+  margin: 48px 0 0;
+  font: 400 normal 15px/26px "Roboto";
+}
+
+.faq {
+  position: relative;
+  height: 800px;
+  margin-top: 1100px;
+}
+
+.faq-image {
+  position: absolute;
+  top: 40px;
+  left: -52px;
+  width: 540px;
+  height: 100%;
+  background: url("./Frame\ \(1\).png") 0 0 / 540px no-repeat;
+}
+
+.faq-content {
+  width: 540px;
+  margin-left: auto;
+}
+
+.faq-content .section-title {
+  padding-right: 90px;
+}
+
+.faq-container {
+  border: 1px solid #dededed4;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.faq-list-item {
+  list-style-type: none;
+  font: 400 normal 16px/28px "Oswald";
+  text-transform: uppercase;
+}
+
+.question-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 30px 30px 40px;
+}
+
+.question-card-text {
+  margin: 0;
+}
+
+.question-card-btn {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: transform 600ms ease;
+}
+
+.question-card-btn.opened {
+  transform: rotate(45deg);
+}
+
+.question-card-btn:hover {
+  background-color: var(--light-gray);
+}
+
+.question-card-btn:active {
+  background-color: var(--dark-gray);
+}
+
+.question-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 600ms ease;
+}
+
+.question-answer.visible {
+  max-height: 600px;
+}
+
+.question-answer-text {
+  font: 400 normal 16px/28px "Roboto";
+  text-transform: none;
+}
+
+.reyting {
+  position: absolute;
+  width: 1200px;
+  margin: 150px 0 0 0;
+}
+
+.Marketing {
+  width: 300px;
+}
+
+.Marketing2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.marketing-text {
+  width: 500px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.progress-card {
+  width: 540px;
+}
+
+.progress-card-lables {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.progress-thumb,
+.progress-education-card,
+.progress-Development-card {
+  height: 100%;
+  border: 10px;
+}
+
+#progress-research .progress-thumb {
+  width: 85%;
+  background-color: var(--blue);
+}
+
+#progress-education .progress-education-card {
+  width: 65%;
+  background-color: purple;
+}
+
+#progress-Development .progress-Development-card {
+  width: 72%;
+  background-color: orange;
+}
+
+.money {
+  position: absolute;
+  margin-left: 700px;
+  top: -25%;
+  border-radius: 30px;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: rgb(91, 91, 91);
+}
+
+.computer {
+  width: 540px;
+  height: 200px;
+}
+
+.money-text {
+  position: absolute;
+  top: 10%;
+  left: 41%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.money-send {
+  margin: 40px 0 0 210px;
+  font-size: 40px;
+}
+
+.money-per {
+  margin: 0 0 0 225px;
+  text-transform: uppercase;
+}
+
+.money-speakers {
+  margin: 0 0 0 90px;
+  text-transform: uppercase;
+}
+
+#Get-Ticket {
+  margin: 50px 200px;
+}
+
+.companies {
+  margin: -338px 0 0 125px;
+  height: 550px;
+  width: 500px;
+  background: url(./IMAGEbackcolor.png) no-repeat;
+}
+
+.company {
+  width: 730px;
+  margin: 900px 0 0 225px;
+}
+
+.company-knopka {
+  margin: 0 0 0 300px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0057ff;
+}
+
+.company-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+}
+
+.the {
+  margin-left: 300px;
+}
+
+.companeis-name {
+  margin: 400px 0 0 0;
+}
+
+.compane2 {
+  margin-top: -50px;
+}
+
+.finish-blog {
+  margin-top: 80px;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0057ff;
+}
+
+.finish-news {
+  margin: 0;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.right-flower {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  border: 1px solid #0000005c;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.flower {
+  width: 250px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.design2 {
+  margin: 50px 0 0 0;
+}
+
+.DESIGN {
+  margin: 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  color: #0057ff;
+  text-transform: uppercase;
+}
+
+.Blogs {
+  width: 250px;
+  margin: 0;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.unde {
+  width: 220px;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.idea {
+  position: absolute;
+  margin-top: 320px;
+  display: flex;
+  border: 1px solid #0000005c;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.peple2 {
+  width: 250px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.website {
+  position: absolute;
+  margin: 50px 0 0 620px;
+  border: 1px solid #9b9b9b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.street {
+  width: 552px;
+  height: 469px;
+  background: url(.//IMAGEstreet.png) no-repeat;
+}
+
+.market {
+  position: absolute;
+  top: 62%;
+  left: 8%;
+  font-size: 11px;
+  color: #0057ff;
+}
+
+.yer {
+  margin: -18px 0 0 -1px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.finsh {
+  position: absolute;
+  width: 1200px;
+  height: 250px;
+  margin-top: 650px;
+  background-color: #000000;
+}
+
+.avafinsh {
+  width: 120px;
+  height: 42px;
+  margin: 60px 0 0 60px;
+}
+
+.terms {
+  margin: -47px 0 0 660px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+}
+
+.Created {
+  margin: 9px 649px 0 -540px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.media {
+  display: flex;
+  margin: 90px 0 0 600px;
+}
+
+.face {
+  width: 33px;
+  height: 34px;
+  border-radius: 30px;
+  border: 1px solid grey;
+}
+
+.twitter {
+  width: 33px;
+  height: 34px;
+  border-radius: 30px;
+  border: 1px solid grey;
+}
+
+.W {
+  width: 33px;
+  height: 34px;
+  border-radius: 30px;
+  border: 1px solid grey;
+}
+
+.p {
+  width: 33px;
+  height: 34px;
+  border-radius: 30px;
+  border: 1px solid grey;
+}
